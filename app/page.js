@@ -11,6 +11,9 @@ export default function Home(){
         <li>
           <Link className="text-teal-400 hover:text-amber-50 font-bold text-3xl" href="./week-2">Week 2 Assignment</Link>
         </li>
+        <li>
+          <Link className="text-teal-400 hover:text-amber-50 font-bold text-3xl" href="./week-3">Week 3 Assignment</Link>
+        </li>
       </ul>
       </div>
     </main>
