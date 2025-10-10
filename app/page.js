@@ -33,6 +33,11 @@ export default function Home(){
             Week 4 Assignment
           </button>
         </li>
+        <li>
+          <button className={buttonLinkStyle2} onClick={() => navigateTo("./week-5")}>
+            Week 5 Assignment
+          </button>
+        </li>
       </ul>
       </div>
     </main>
