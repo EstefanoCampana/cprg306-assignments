@@ -40,7 +40,7 @@ export default function StudentInfo(){
                             </ul>
                         </div>
 
-                        <iframe className="p-3 bg-[#FDEBD0]/85 rounded-sm self-center-safe" width="540" height="315" src="https://www.youtube.com/embed/Z-MdM5dz954?si=G7lvPQ0g9ExdNosy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                        <iframe className="p-3 bg-[#FDEBD0]/85 rounded-sm self-center-safe" width="540" height="315" src="https://www.youtube.com/embed/Z-MdM5dz954?si=G7lvPQ0g9ExdNosy" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerPolicy="strict-origin-when-cross-origin"></iframe>
                         
                         <button className="m-3 p-3 text-[#FDEBD0]/70 hover:text-[#F75270] bg-[#bf1839]/50 rounded-lg hover:scale-105 transition-transform self-end-safe">
                             <Link className="p-3" href="https://github.com/EstefanoCampana/cprg306-assignments" target="_blank">GitHub Repository</Link>
