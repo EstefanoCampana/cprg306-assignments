@@ -16,7 +16,7 @@ export default function Home(){
       <div className="p-3 m-3 flex justify-center">
       <h1 className="text-4xl text-[#DC143C] font-bold">CPRG306 ASSIGNMENTS</h1>  
       </div>
-      <div className="p-3 m-3">
+      <div className="flex flex-row p-3 m-3">
       <ul>
         <li>
           <button className={buttonLinkStyle1} onClick={() => navigateTo("./week-2")}>
@@ -41,6 +41,18 @@ export default function Home(){
         <li>
           <button className={buttonLinkStyle1} onClick={() => navigateTo("./week-6")}>
             Week 6 Assignment
+          </button>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <button className={buttonLinkStyle2} onClick={() => navigateTo("./week-7")}>
+            Week 7 Assignment
+          </button>
+        </li>
+        <li>
+          <button className={buttonLinkStyle1} onClick={() => navigateTo("./week-8")}>
+            Week 8 Assignment
           </button>
         </li>
       </ul>
